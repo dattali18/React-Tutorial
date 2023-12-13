@@ -1,0 +1,109 @@
+
+.home {
+    background-position: center;
+
+    height: 100vh;
+
+    min-height: 45rem;
+    max-height: 80rem;
+    position: relative;
+
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.1),rgba(245,245,245,.4)),url(../src/assets/subtle-prism.svg);
+}
+
+.home-hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90rem;
+    width: 92%;
+}
+
+.home-primary {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: var(--head-text-color);
+    font-weight: 800;
+}
+
+.home-hero-info {
+    margin: 3rem auto 0 auto;
+    max-width: 50rem;
+}
+
+.home-text-primary {
+    color: var(--info-text-color);
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+}
+
+.home-hero-btn- {
+    margin-top: 5rem;
+    text-align: center;
+}
+.home-hero-btn {
+    border: none;
+    text-decoration: none;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    display: inline-flex;
+    padding: 20px 80px;
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    background: var(--btn-bg);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+
+    transition: transform .3s;
+}
+
+.home-hero-btn:hover {
+    transform: translateY(-5px);
+}
+
+.home-hero-socials {
+    fill: #FFF;
+    filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 0px 5px 5px 0px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    /* box-shadow: rgba(100,100,111,.2) 0 7px 29px 0; */
+    padding: .5rem;
+}
+
+.home-hero-social {
+    width: 4rem;
+}
+
+.home-hero-social-link {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    
+    border-radius: 5px;
+
+    transition: background .3s;
+}
+
+.home-hero-social-link:hover {
+    background: rgba(0, 122, 255, 0.50);
+}
+
+.home-hero-social-icon {
+    width: 100%;
+}

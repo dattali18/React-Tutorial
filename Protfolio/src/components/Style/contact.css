@@ -1,0 +1,39 @@
+
+/* Contact Section */
+
+.contact {
+    background-position: center;
+    background: linear-gradient(to right,rgba(0, 125, 250, 0.1),rgba(0, 125, 250, 0.05)),url(../src/assets/subtle-prism.svg);
+}
+
+.contact-info {
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    background: #fff;
+    padding: 4rem;
+    max-width: 80rem;
+    width: 95%;
+    border-radius: 10px;
+    margin: 0 auto 0 auto;
+}
+
+.contact-info-link {
+    text-decoration: none;
+
+    color: var(--btn-bg);
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+    display: block;
+    padding-left: 25px;
+}
+
+.contact-info-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-header {
+    padding: 120px 0px;
+}
