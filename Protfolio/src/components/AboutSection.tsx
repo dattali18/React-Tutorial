@@ -48,6 +48,7 @@ export default function AboutSection() {
 interface SkillProps {
   name: string;
 }
+
 function Skill({ name }: SkillProps) {
   return (
     <>
